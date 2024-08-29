@@ -4,16 +4,35 @@
 
 _Protocol is a set of rules which are used in digital communication to connect network devices and exchange information between them._
 
+_`Host` is anything that sends or receive traffic on internet_
+
+### Every host needs four items for internet connectivity
+
+- _`IP Address` : Host identification on the internet_
+- _`Subnet Mask` : Size of host network(On same network)_
+- _`Default Gateway` : Routers IP address(On other network)_
+- _`DNS Server (IP)` : Translate domain name into IP_
+
+#### DHCP `Dynamic Host Configuration Protocol`
+
+_DHCP Server provides IP, SM, DG, DNS for client._
+
+<hr/>
+
 ## Types of Protocol
 
 - _TCP/IP(`Transmission Control Protocol/Internet Protocol`)_
 - _HTTP(`Hypertext Transfer Protocol`)_
+- _HTTPS(`HTTP with SSL/TLS`)_
+- _DNS(`Domain Name System`)_
+- _ARP(`Address Resolution Protocol`)_
 - _SMTP(`Simple Mail Transfer Protocol`)_
 - _POP(`Post Office Protocol`)_
 - _IMAP(`Internet Messaging Access Protocol`)_
 - _UDP(`User Datagram Protocol`)_
 - _PPP(`Point-to-Point Protocol`)_
 - _FTP(`File Transfer Protocol`)_
+- _SSL/TLS(`Secure Sockets Layer/Transfer Layer Security`)_
 
 ## Explanation
 
