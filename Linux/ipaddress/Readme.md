@@ -37,3 +37,9 @@ sudo ip link show
 ```bash
 ip route
 ```
+
+- _Check SSH status._
+
+```bash
+sudo systemctl status ssh
+```
