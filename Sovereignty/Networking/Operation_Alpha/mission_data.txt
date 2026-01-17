@@ -1,0 +1,1 @@
+SECRET_KEY=9922-Aplha-Code-Red
